@@ -80,3 +80,20 @@ function arrayEg3(...args){
     console.log(args[5])                                    //pring array index 5 to log
  }
 arrayEg3(...arr);                                           //index 5 is the 6th value of arr array so print 6
+
+//rest parameter
+
+function rest(...tstArr) {
+    console.log(tstArr[5]);
+}
+
+rest(1,42,55,6674,234,51,63);
+
+//spread operator 
+
+let arr1 = [1,2,3,4];
+let arr2 = [...arr1,5,6,7,8,9];
+
+console.log(arr1);
+console.log(arr2);
+
