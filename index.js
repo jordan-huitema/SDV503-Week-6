@@ -97,3 +97,11 @@ let arr2 = [...arr1,5,6,7,8,9];
 console.log(arr1);
 console.log(arr2);
 
+
+//lesson example 
+
+function arraysForAll(...args) {
+    console.log(args[0] + args[1]);
+}
+
+arraysForAll(5,5);      //output 10
