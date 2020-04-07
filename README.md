@@ -4,7 +4,7 @@ Jordan huitema
 Link to Lab-4 on Github
 https://github.com/jordan-huitema/Lab-Three
 
-Link to clone SDV503-Week-5
+Link to clone SDV503-Week-6
 https://github.com/jordan-huitema/SDV503-Week-6.git
 
 --Journal Week 6--
