@@ -40,10 +40,10 @@ if(allOfEm.length == 9) {
 //function legnth trickery 
 
 function eg2(x,y = 10, z) {
-    return console.log(x)
+    return (x + z + y)
 }
 
-console.log(eg2.length);                                    //only outputs arguments, unused parameters are not counted
+console.log(eg2.length);                                    //out puts 1 because the return statement only has 1 parameter
 
 //checking argument length
 
@@ -86,7 +86,6 @@ arrayEg3(...arr);                                           //index 5 is the 6th
 function rest(...tstArr) {
     console.log(tstArr[5]);
 }
-
 rest(1,42,55,6674,234,51,63);
 
 //spread operator 
